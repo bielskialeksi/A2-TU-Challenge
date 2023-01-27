@@ -31,7 +31,7 @@ namespace TU_Challenge
         [TestCase(12, false)]
         [TestCase(17, false)]
         [TestCase(18, true)]
-        [TestCase(40, true)]
+        [TestCase(40, true)] 
         [TestCase(140, true)]
         public void IsMajeur(int age, bool expected)
         {
